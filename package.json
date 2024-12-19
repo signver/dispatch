@@ -1,0 +1,29 @@
+{
+  "name": "@signver/dispatch",
+  "version": "1.0.0",
+  "description": "Simple wrapper for event-based code.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "signver",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "babel-jest": "^29.7.0"
+  }
+}
